@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Conexão Campo e Cidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Conexão Campo e Cidade</h1>
+        <p>O campo alimenta a cidade e a cidade valoriza o campo.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Do Campo à Mesa</h2>
+        <p>
+            Os alimentos que consumimos diariamente passam por diversas etapas
+            até chegarem à nossa mesa. O trabalho dos agricultores é essencial
+            para a vida de todos.
+        </p>
+    </section>
+
+    <section id="tecnologia">
+        <h2>🚜 Tecnologia no Campo</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Drones</h3>
+                <p>Monitoram plantações e ajudam no controle das lavouras.</p>
+            </div>
+
+            <div class="card">
+                <h3>Irrigação Inteligente</h3>
+                <p>Economiza água e melhora a produção agrícola.</p>
+            </div>
+
+            <div class="card">
+                <h3>Sensores</h3>
+                <p>Coletam dados do solo e do clima em tempo real.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sustentabilidade">
+        <h2>🌎 Sustentabilidade</h2>
+        <ul>
+            <li>Economizar água.</li>
+            <li>Evitar desperdício de alimentos.</li>
+            <li>Preservar matas e rios.</li>
+            <li>Reciclar resíduos.</li>
+        </ul>
+    </section>
+
+    <section id="quiz">
+        <h2>🧠 Quiz Agrinho</h2>
+
+        <p>Qual tecnologia é usada para monitorar plantações pelo ar?</p>
+
+        <button onclick="responder('errado')">Trator</button>
+        <button onclick="responder('certo')">Drone</button>
+        <button onclick="responder('errado')">Bicicleta</button>
+
+        <h3 id="resultado"></h3>
+    </section>
+
+    <footer>
+        <p>Projeto Agrinho 2026 - Conexão Campo e Cidade</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
